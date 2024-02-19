@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+#redd{
+    background-color: #990000;
+    width:100%;
+   height:35px;
+}
+#logo{
+    height: 49px;
+    width: 49px;
+}
+#headd{
+    font-family: Inika;
+    font-size: 16px;
+}
+#topp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    
+}
+#lft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 20px;
+    width: 10vh; */
+    font-size: 20px;
+    text-align: center;
+}
+#alok{
+    text-align: center;
+}
+#logo-side{
+    margin-left:50px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    gap:5px;
+}
+#cls-txt{
+    border-left:4px solid #FFFFFF;
+    /* border-width:10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 25px;
+}
+#hero-title{
+    font-family: Poppins;
+    font-weight:600;
+    font-size: 36px;
+    letter-spacing: 1%;
+    
+}
+a:hover{
+    text-decoration: none;
+    opacity: 1;
+}
+.typewriter{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+  /* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
